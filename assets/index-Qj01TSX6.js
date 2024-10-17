@@ -6999,8 +6999,8 @@ var m = reactDomExports;
   createRoot = m.createRoot;
   m.hydrateRoot;
 }
-const reactLogo = "/sagar-shirwalkar.github.io/assets/react-CHdo91hT.svg";
-const viteLogo = "/sagar-shirwalkar.github.io/vite.svg";
+const reactLogo = "https://sagar-shirwalkar.github.io/assets/react-CHdo91hT.svg";
+const viteLogo = "https://sagar-shirwalkar.github.io/vite.svg";
 function App() {
   const [count, setCount] = reactExports.useState(0);
   return /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
@@ -7026,4 +7026,4 @@ function App() {
 createRoot(document.getElementById("root")).render(
   /* @__PURE__ */ jsxRuntimeExports.jsx(reactExports.StrictMode, { children: /* @__PURE__ */ jsxRuntimeExports.jsx(App, {}) })
 );
-//# sourceMappingURL=index-CLTFZBM2.js.map
+//# sourceMappingURL=index-Qj01TSX6.js.map
