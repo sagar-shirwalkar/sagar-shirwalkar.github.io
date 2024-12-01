@@ -1,28 +1,20 @@
-import './App.css';
 import React from 'react';
+import Header from './components/Header';
 import About from './components/About';
 import Experience from './components/Experience';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 
 const App = () => (
-  <div>
-    <header>
-      <h1>Sagar Shirwalkar</h1>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#experience">Experience</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
+  <div className="font-sans">
+    <Header />
     <main>
       <About />
       <Experience />
       <Skills />
       <Contact />
     </main>
-    <footer>
+    <footer className="bg-blue-900 text-white py-4 text-center">
       <p>© 2024 Sagar Shirwalkar</p>
     </footer>
   </div>
