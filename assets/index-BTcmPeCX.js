@@ -7003,8 +7003,8 @@ const Header = () => /* @__PURE__ */ jsxRuntimeExports.jsx("header", { className
   /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-3xl font-bold", children: "Jane Doe" }),
   /* @__PURE__ */ jsxRuntimeExports.jsxs("nav", { children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#about", className: "text-white px-4 hover:underline", children: "About" }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#experience", className: "text-white px-4 hover:underline", children: "Experience" }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#skills", className: "text-white px-4 hover:underline", children: "Skills" }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#experience", className: "text-white px-4 hover:underline", children: "Experience" }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#contact", className: "text-white px-4 hover:underline", children: "Contact" })
   ] })
 ] }) });
@@ -7014,7 +7014,7 @@ const About = () => /* @__PURE__ */ jsxRuntimeExports.jsx("section", { id: "abou
 ] }) });
 const Experience = () => /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { id: "about", children: [
   /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { children: "About Me" }),
-  /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "Hello! I'm Sagar, a passionate software developer specializing in web development." })
+  /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "My experience" })
 ] });
 const Skills = () => {
   const skills = ["JavaScript", "React", "Node.js", "CSS", "Tailwind"];
@@ -7078,4 +7078,4 @@ const App = () => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "fo
   /* @__PURE__ */ jsxRuntimeExports.jsx("footer", { className: "bg-blue-900 text-white py-4 text-center", children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "© 2024 Sagar Shirwalkar" }) })
 ] });
 client.createRoot(document.getElementById("root")).render(/* @__PURE__ */ jsxRuntimeExports.jsx(App, {}));
-//# sourceMappingURL=index-o5HasCXe.js.map
+//# sourceMappingURL=index-BTcmPeCX.js.map
