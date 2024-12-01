@@ -7003,9 +7003,21 @@ const About = () => /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { id: "abo
   /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { children: "About Me" }),
   /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "Hello! I'm Sagar, a passionate software developer specializing in web development." })
 ] });
+const Experience = () => /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { id: "about", children: [
+  /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { children: "About Me" }),
+  /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "Hello! I'm Sagar, a passionate software developer specializing in web development." })
+] });
+const Skills = () => /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { id: "about", children: [
+  /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { children: "About Me" }),
+  /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "Hello! I'm Sagar, a passionate software developer specializing in web development." })
+] });
+const Contact = () => /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { id: "about", children: [
+  /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { children: "About Me" }),
+  /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "Hello! I'm Sagar, a passionate software developer specializing in web development." })
+] });
 const App = () => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
   /* @__PURE__ */ jsxRuntimeExports.jsxs("header", { children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { children: "Jane Doe" }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { children: "Sagar Shirwalkar" }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("nav", { children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#about", children: "About" }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#experience", children: "Experience" }),
@@ -7013,8 +7025,13 @@ const App = () => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#contact", children: "Contact" })
     ] })
   ] }),
-  /* @__PURE__ */ jsxRuntimeExports.jsx("main", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(About, {}) }),
+  /* @__PURE__ */ jsxRuntimeExports.jsxs("main", { children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx(About, {}),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(Experience, {}),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(Skills, {}),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(Contact, {})
+  ] }),
   /* @__PURE__ */ jsxRuntimeExports.jsx("footer", { children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "© 2024 Sagar Shirwalkar" }) })
 ] });
 client.createRoot(document.getElementById("root")).render(/* @__PURE__ */ jsxRuntimeExports.jsx(App, {}));
-//# sourceMappingURL=index-6WDP6q1o.js.map
+//# sourceMappingURL=index-Dwt9pLr1.js.map
