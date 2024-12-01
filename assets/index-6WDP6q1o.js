@@ -326,6 +326,7 @@ reactJsxRuntime_production_min.jsxs = q;
   jsxRuntime.exports = reactJsxRuntime_production_min;
 }
 var jsxRuntimeExports = jsxRuntime.exports;
+var client = {};
 var reactDom = { exports: {} };
 var reactDom_production_min = {};
 var scheduler = { exports: {} };
@@ -6993,37 +6994,27 @@ function checkDCE() {
   reactDom.exports = reactDom_production_min;
 }
 var reactDomExports = reactDom.exports;
-var createRoot;
 var m = reactDomExports;
 {
-  createRoot = m.createRoot;
-  m.hydrateRoot;
+  client.createRoot = m.createRoot;
+  client.hydrateRoot = m.hydrateRoot;
 }
-const reactLogo = "https://sagar-shirwalkar.github.io/assets/react-CHdo91hT.svg";
-const viteLogo = "https://sagar-shirwalkar.github.io/vite.svg";
-function App() {
-  const [count, setCount] = reactExports.useState(0);
-  return /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://vitejs.dev", target: "_blank", children: /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: viteLogo, className: "logo", alt: "Vite logo" }) }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://react.dev", target: "_blank", children: /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: reactLogo, className: "logo react", alt: "React logo" }) })
-    ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { children: "Vite + React" }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "card", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("button", { onClick: () => setCount((count2) => count2 + 1), children: [
-        "count is ",
-        count
-      ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { children: [
-        "Edit ",
-        /* @__PURE__ */ jsxRuntimeExports.jsx("code", { children: "src/App.jsx" }),
-        " and save to test HMR"
-      ] })
-    ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "read-the-docs", children: "Click on the Vite and React logos to learn more" })
-  ] });
-}
-createRoot(document.getElementById("root")).render(
-  /* @__PURE__ */ jsxRuntimeExports.jsx(reactExports.StrictMode, { children: /* @__PURE__ */ jsxRuntimeExports.jsx(App, {}) })
-);
-//# sourceMappingURL=index-Qj01TSX6.js.map
+const About = () => /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { id: "about", children: [
+  /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { children: "About Me" }),
+  /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "Hello! I'm Sagar, a passionate software developer specializing in web development." })
+] });
+const App = () => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+  /* @__PURE__ */ jsxRuntimeExports.jsxs("header", { children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { children: "Jane Doe" }),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("nav", { children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#about", children: "About" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#experience", children: "Experience" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#skills", children: "Skills" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#contact", children: "Contact" })
+    ] })
+  ] }),
+  /* @__PURE__ */ jsxRuntimeExports.jsx("main", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(About, {}) }),
+  /* @__PURE__ */ jsxRuntimeExports.jsx("footer", { children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "© 2024 Sagar Shirwalkar" }) })
+] });
+client.createRoot(document.getElementById("root")).render(/* @__PURE__ */ jsxRuntimeExports.jsx(App, {}));
+//# sourceMappingURL=index-6WDP6q1o.js.map
