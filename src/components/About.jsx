@@ -3,7 +3,8 @@ const About = () => (
     <div className="container mx-auto">
       <h2 className="text-2xl font-semibold mb-4">About Me</h2>
       <p className="text-gray-700">
-        Hello! I'm Sagar Shirwalkar, a passionate software developer specializing in web development.
+      I'm experienced in leading software teams, project management and client liaison, as well as end-to-end deployment on the AWS cloud. 
+      Several years of former experience in Data Engineering and Machine Learning.
       </p>
     </div>
   </section>
