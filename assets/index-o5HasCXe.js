@@ -6999,39 +6999,83 @@ var m = reactDomExports;
   client.createRoot = m.createRoot;
   client.hydrateRoot = m.hydrateRoot;
 }
-const About = () => /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { id: "about", children: [
-  /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { children: "About Me" }),
-  /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "Hello! I'm Sagar, a passionate software developer specializing in web development." })
-] });
+const Header = () => /* @__PURE__ */ jsxRuntimeExports.jsx("header", { className: "bg-blue-900 text-white py-4", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto flex justify-between items-center", children: [
+  /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-3xl font-bold", children: "Jane Doe" }),
+  /* @__PURE__ */ jsxRuntimeExports.jsxs("nav", { children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#about", className: "text-white px-4 hover:underline", children: "About" }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#experience", className: "text-white px-4 hover:underline", children: "Experience" }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#skills", className: "text-white px-4 hover:underline", children: "Skills" }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#contact", className: "text-white px-4 hover:underline", children: "Contact" })
+  ] })
+] }) });
+const About = () => /* @__PURE__ */ jsxRuntimeExports.jsx("section", { id: "about", className: "py-8 bg-gray-100", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto", children: [
+  /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-2xl font-semibold mb-4", children: "About Me" }),
+  /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-700", children: "Hello! I'm Sagar Shirwalkar, a passionate software developer specializing in web development." })
+] }) });
 const Experience = () => /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { id: "about", children: [
   /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { children: "About Me" }),
   /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "Hello! I'm Sagar, a passionate software developer specializing in web development." })
 ] });
-const Skills = () => /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { id: "about", children: [
-  /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { children: "About Me" }),
-  /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "Hello! I'm Sagar, a passionate software developer specializing in web development." })
-] });
-const Contact = () => /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { id: "about", children: [
-  /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { children: "About Me" }),
-  /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "Hello! I'm Sagar, a passionate software developer specializing in web development." })
-] });
-const App = () => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-  /* @__PURE__ */ jsxRuntimeExports.jsxs("header", { children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { children: "Sagar Shirwalkar" }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("nav", { children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#about", children: "About" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#experience", children: "Experience" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#skills", children: "Skills" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#contact", children: "Contact" })
-    ] })
-  ] }),
+const Skills = () => {
+  const skills = ["JavaScript", "React", "Node.js", "CSS", "Tailwind"];
+  return /* @__PURE__ */ jsxRuntimeExports.jsx("section", { id: "skills", className: "py-8", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-2xl font-semibold mb-4", children: "Skills" }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-wrap gap-4", children: skills.map((skill) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+      "span",
+      {
+        className: "bg-blue-100 text-blue-800 px-4 py-2 rounded-full shadow",
+        children: skill
+      },
+      skill
+    )) })
+  ] }) });
+};
+const Contact = () => /* @__PURE__ */ jsxRuntimeExports.jsx("section", { id: "contact", className: "py-8 bg-gray-100", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto", children: [
+  /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-2xl font-semibold mb-4", children: "Contact" }),
+  /* @__PURE__ */ jsxRuntimeExports.jsxs("form", { className: "flex flex-col gap-4", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx(
+      "input",
+      {
+        type: "text",
+        placeholder: "Name",
+        className: "border border-gray-300 rounded p-2"
+      }
+    ),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(
+      "input",
+      {
+        type: "email",
+        placeholder: "Email",
+        className: "border border-gray-300 rounded p-2"
+      }
+    ),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(
+      "textarea",
+      {
+        placeholder: "Message",
+        className: "border border-gray-300 rounded p-2",
+        rows: "5"
+      }
+    ),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(
+      "button",
+      {
+        type: "submit",
+        className: "bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700",
+        children: "Send Message"
+      }
+    )
+  ] })
+] }) });
+const App = () => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "font-sans", children: [
+  /* @__PURE__ */ jsxRuntimeExports.jsx(Header, {}),
   /* @__PURE__ */ jsxRuntimeExports.jsxs("main", { children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx(About, {}),
     /* @__PURE__ */ jsxRuntimeExports.jsx(Experience, {}),
     /* @__PURE__ */ jsxRuntimeExports.jsx(Skills, {}),
     /* @__PURE__ */ jsxRuntimeExports.jsx(Contact, {})
   ] }),
-  /* @__PURE__ */ jsxRuntimeExports.jsx("footer", { children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "© 2024 Sagar Shirwalkar" }) })
+  /* @__PURE__ */ jsxRuntimeExports.jsx("footer", { className: "bg-blue-900 text-white py-4 text-center", children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "© 2024 Sagar Shirwalkar" }) })
 ] });
 client.createRoot(document.getElementById("root")).render(/* @__PURE__ */ jsxRuntimeExports.jsx(App, {}));
-//# sourceMappingURL=index-Dwt9pLr1.js.map
+//# sourceMappingURL=index-o5HasCXe.js.map
