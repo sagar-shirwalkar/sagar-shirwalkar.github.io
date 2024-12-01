@@ -6999,7 +6999,7 @@ var m = reactDomExports;
   client.createRoot = m.createRoot;
   client.hydrateRoot = m.hydrateRoot;
 }
-const Header = () => /* @__PURE__ */ jsxRuntimeExports.jsx("header", { className: "bg-blue-900 text-white py-4", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto flex justify-between items-center", children: [
+const Header = () => /* @__PURE__ */ jsxRuntimeExports.jsx("header", { className: "bg-black text-white py-4", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto flex justify-between items-center", children: [
   /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-3xl font-bold", children: "Sagar Shirwalkar" }),
   /* @__PURE__ */ jsxRuntimeExports.jsxs("nav", { children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#about", className: "text-white px-4 hover:underline", children: "About" }),
@@ -7008,37 +7008,62 @@ const Header = () => /* @__PURE__ */ jsxRuntimeExports.jsx("header", { className
     /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#contact", className: "text-white px-4 hover:underline", children: "Contact" })
   ] })
 ] }) });
-const About = () => /* @__PURE__ */ jsxRuntimeExports.jsx("section", { id: "about", className: "py-8 bg-gray-100", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto", children: [
-  /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-2xl font-semibold mb-4", children: "About Me" }),
-  /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-700", children: "I'm experienced in leading software teams, project management and client liaison, as well as end-to-end deployment on the AWS cloud. Several years of former experience in Data Engineering and Machine Learning." })
+const About = () => /* @__PURE__ */ jsxRuntimeExports.jsx("section", { id: "about", className: "py-8 bg-gray-900", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto", children: [
+  /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-2xl text-white font-semibold mb-4", children: "About Me" }),
+  /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-white", children: "I'm experienced in leading software teams, project management and client liaison, as well as end-to-end deployment on the AWS cloud. Several years of former experience in Data Engineering and Machine Learning." })
 ] }) });
-const Experience = () => /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { id: "about", children: [
-  /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { children: "About Me" }),
-  /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "My experience" })
-] });
+const Experience = () => /* @__PURE__ */ jsxRuntimeExports.jsx("section", { id: "experience", className: "py-8 bg-gray-900", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto", children: [
+  /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-2xl text-white font-semibold mb-4", children: "Experience" }),
+  /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-white", children: "Exp" })
+] }) });
+const ReactLogo = "https://sagar-shirwalkar.github.io/assets/react-CHdo91hT.svg";
+const JavaLogo = "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='1344'%20height='2500'%20viewBox='6.527%204.399%20290.829%20540.906'%3e%3cpath%20d='M285.104%20430.945h-2.037v-1.14h5.486v1.14h-2.025v5.688h-1.424v-5.688zm10.942.297h-.032l-2.02%205.393h-.924l-2.006-5.393h-.024v5.393h-1.343v-6.828h1.976l1.86%204.835%201.854-4.835h1.969v6.828h-1.311l.001-5.393z'%20fill='%23e76f00'/%3e%3cpath%20d='M102.681%20291.324s-14.178%208.245%2010.09%2011.035c29.4%203.354%2044.426%202.873%2076.825-3.259%200%200%208.518%205.341%2020.414%209.967-72.63%2031.128-164.376-1.803-107.329-17.743M93.806%20250.704s-15.902%2011.771%208.384%2014.283c31.406%203.24%2056.208%203.505%2099.125-4.759%200%200%205.937%206.018%2015.271%209.309-87.815%2025.678-185.624%202.025-122.78-18.833'%20fill='%235382a1'/%3e%3cpath%20d='M168.625%20181.799c17.896%2020.604-4.701%2039.146-4.701%2039.146s45.439-23.458%2024.571-52.833c-19.491-27.395-34.438-41.005%2046.479-87.934.001-.001-127.013%2031.721-66.349%20101.621'%20fill='%23e76f00'/%3e%3cpath%20d='M264.684%20321.369s10.492%208.646-11.555%2015.333c-41.923%2012.7-174.488%2016.535-211.314.507-13.238-5.76%2011.587-13.752%2019.396-15.429%208.144-1.766%2012.798-1.437%2012.798-1.437-14.722-10.371-95.157%2020.363-40.857%2029.166%20148.084%2024.015%20269.944-10.814%20231.532-28.14M109.499%20208.617s-67.431%2016.016-23.879%2021.832c18.389%202.462%2055.047%201.905%2089.192-.956%2027.906-2.354%2055.928-7.358%2055.928-7.358s-9.84%204.214-16.959%209.074c-68.475%2018.01-200.756%209.631-162.674-8.79%2032.206-15.568%2058.392-13.802%2058.392-13.802M230.462%20276.231c69.608-36.171%2037.425-70.932%2014.96-66.248-5.506%201.146-7.961%202.139-7.961%202.139s2.045-3.202%205.947-4.588c44.441-15.624%2078.619%2046.081-14.346%2070.521%200%200%201.079-.962%201.4-1.824'%20fill='%235382a1'/%3e%3cpath%20d='M188.495%204.399s38.55%2038.562-36.563%2097.862c-60.233%2047.567-13.735%2074.689-.025%20105.678-35.158-31.723-60.96-59.647-43.65-85.637%2025.406-38.151%2095.792-56.648%2080.238-117.903'%20fill='%23e76f00'/%3e%3cpath%20d='M116.339%20374.246c66.815%204.277%20169.417-2.373%20171.846-33.987%200%200-4.67%2011.984-55.219%2021.503-57.027%2010.731-127.364%209.479-169.081%202.601.002-.002%208.541%207.067%2052.454%209.883'%20fill='%235382a1'/%3e%3cpath%20d='M105.389%20495.049c-6.303%205.467-12.96%208.536-18.934%208.536-8.527%200-13.134-5.113-13.134-13.314%200-8.871%204.937-15.357%2024.739-15.357h7.328l.001%2020.135m17.392%2019.623V453.93c0-15.518-8.85-25.756-30.188-25.756-12.457%200-23.369%203.076-32.238%206.999l2.56%2010.752c6.983-2.563%2016.022-4.949%2024.894-4.949%2012.292%200%2017.58%204.949%2017.58%2015.181v7.678h-6.135c-29.865%200-43.337%2011.593-43.337%2028.993%200%2015.018%208.878%2023.554%2025.594%2023.554%2010.745%200%2018.766-4.437%2026.264-10.929l1.361%209.221%2013.645-.002zM180.824%20514.672h-21.691l-26.106-84.96h18.944l16.198%2052.199%203.601%2015.699c8.195-22.698%2013.992-45.726%2016.891-67.898h18.427c-4.938%2027.976-13.822%2058.684-26.264%2084.96M264.038%20495.049c-6.315%205.467-12.983%208.536-18.958%208.536-8.512%200-13.131-5.113-13.131-13.314%200-8.871%204.947-15.357%2024.748-15.357h7.341v20.135m17.39%2019.623V453.93c0-15.518-8.871-25.756-30.186-25.756-12.465%200-23.381%203.076-32.246%206.999l2.557%2010.752c6.985-2.563%2016.041-4.949%2024.906-4.949%2012.283%200%2017.579%204.949%2017.579%2015.181v7.678h-6.146c-29.873%200-43.34%2011.593-43.34%2028.993%200%2015.018%208.871%2023.554%2025.584%2023.554%2010.752%200%2018.77-4.437%2026.28-10.929l1.366%209.221%2013.646-.002zM36.847%20529.099c-4.958%207.239-12.966%2012.966-21.733%2016.206L6.527%20535.2c6.673-3.424%2012.396-8.954%2015.055-14.104%202.3-4.581%203.252-10.485%203.252-24.604v-96.995h18.478v95.666c-.001%2018.875-1.51%2026.5-6.465%2033.936'%20fill='%23e76f00'/%3e%3c/svg%3e";
+const NodeLogo = "data:image/svg+xml,%3csvg%20height='2500'%20viewBox='3.58301931%201.90851839%2024.83198069%2028.09192829'%20width='2029'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20fill='%2300d486'%3e%3cpath%20d='m16%2030a2.151%202.151%200%200%201%20-1.076-.288l-3.424-2.027c-.511-.286-.262-.387-.093-.446a6.828%206.828%200%200%200%201.549-.7.263.263%200%200%201%20.255.019l2.631%201.563a.34.34%200%200%200%20.318%200l10.26-5.922a.323.323%200%200%200%20.157-.278v-11.846a.331.331%200%200%200%20-.159-.283l-10.26-5.917a.323.323%200%200%200%20-.317%200l-10.254%205.919a.33.33%200%200%200%20-.162.281v11.841a.315.315%200%200%200%20.161.274l2.814%201.624c1.525.762%202.459-.136%202.459-1.038v-11.691a.3.3%200%200%201%20.3-.3h1.3a.3.3%200%200%201%20.3.3v11.692c0%202.035-1.108%203.2-3.038%203.2a4.389%204.389%200%200%201%20-2.363-.642l-2.697-1.547a2.166%202.166%200%200%201%20-1.076-1.872v-11.841a2.162%202.162%200%200%201%201.076-1.875l10.261-5.924a2.246%202.246%200%200%201%202.156%200l10.26%205.924a2.165%202.165%200%200%201%201.077%201.87v11.846a2.171%202.171%200%200%201%20-1.077%201.872l-10.26%205.924a2.152%202.152%200%200%201%20-1.078.288z'/%3e%3cpath%20d='m14.054%2017.953a.3.3%200%200%201%20.3-.3h1.327a.3.3%200%200%201%20.295.251c.2%201.351.8%202.032%203.513%202.032%202.161%200%203.082-.489%203.082-1.636%200-.661-.261-1.152-3.62-1.481-2.808-.278-4.544-.9-4.544-3.144%200-2.07%201.745-3.305%204.67-3.305%203.287%200%204.914%201.141%205.12%203.589a.3.3%200%200%201%20-.295.323h-1.336a.3.3%200%200%201%20-.288-.232c-.319-1.421-1.1-1.875-3.2-1.875-2.36%200-2.634.822-2.634%201.438%200%20.746.324.964%203.51%201.385%203.153.417%204.651%201.007%204.651%203.223%200%202.236-1.864%203.516-5.115%203.516-4.495.006-5.436-2.055-5.436-3.784z'/%3e%3c/g%3e%3c/svg%3e";
+const PythonLogo = "https://sagar-shirwalkar.github.io/assets/python-BQqqfLzh.svg";
 const Skills = () => {
-  const skills = ["JavaScript", "React", "Node.js", "CSS", "Tailwind"];
-  return /* @__PURE__ */ jsxRuntimeExports.jsx("section", { id: "skills", className: "py-8", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto", children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-2xl font-semibold mb-4", children: "Skills" }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-wrap gap-4", children: skills.map((skill) => /* @__PURE__ */ jsxRuntimeExports.jsx(
-      "span",
-      {
-        className: "bg-blue-100 text-blue-800 px-4 py-2 rounded-full shadow",
-        children: skill
-      },
-      skill
-    )) })
+  const langs = [
+    { logo: JavaLogo, text: "Java" },
+    { logo: ReactLogo, text: "ReactJS" },
+    { logo: NodeLogo, text: "NodeJS" },
+    { logo: PythonLogo, text: "Python" }
+  ];
+  return /* @__PURE__ */ jsxRuntimeExports.jsx("section", { id: "skills", className: "py-8 bg-gray-900", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-2xl text-white font-semibold mb-6", children: "Skills" }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xl text-white font-medium mb-6", children: "Programming" }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-2 md:grid-cols-4 gap-6", children: langs.map((item, index) => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col items-center", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx(
+        "img",
+        {
+          src: item.logo,
+          alt: item.text,
+          className: "h-16 w-16 object-contain mb-2"
+        }
+      ),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-white font-medium", children: item.text })
+    ] }, index)) }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xl text-white font-medium mt-6 mb-6", children: "Deployment" }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-2 md:grid-cols-4 gap-6", children: langs.map((item, index) => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col items-center", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx(
+        "img",
+        {
+          src: item.logo,
+          alt: item.text,
+          className: "h-16 w-16 object-contain mb-2"
+        }
+      ),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-white font-medium", children: item.text })
+    ] }, index)) })
   ] }) });
 };
-const Contact = () => /* @__PURE__ */ jsxRuntimeExports.jsx("section", { id: "contact", className: "py-8 bg-gray-100", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto", children: [
-  /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-2xl font-semibold mb-4", children: "Contact" }),
+const Contact = () => /* @__PURE__ */ jsxRuntimeExports.jsx("section", { id: "contact", className: "py-8 bg-gray-900", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto", children: [
+  /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-2xl text-white font-semibold mb-4", children: "Contact" }),
   /* @__PURE__ */ jsxRuntimeExports.jsxs("form", { className: "flex flex-col gap-4", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx(
       "input",
       {
         type: "text",
         placeholder: "Name",
-        className: "border border-gray-300 rounded p-2"
+        className: "border border-gray-300 bg-slate-600 rounded p-2"
       }
     ),
     /* @__PURE__ */ jsxRuntimeExports.jsx(
@@ -7046,14 +7071,14 @@ const Contact = () => /* @__PURE__ */ jsxRuntimeExports.jsx("section", { id: "co
       {
         type: "email",
         placeholder: "Email",
-        className: "border border-gray-300 rounded p-2"
+        className: "border border-gray-300 bg-slate-600 rounded p-2"
       }
     ),
     /* @__PURE__ */ jsxRuntimeExports.jsx(
       "textarea",
       {
         placeholder: "Message",
-        className: "border border-gray-300 rounded p-2",
+        className: "border border-gray-300 bg-slate-600 rounded p-2",
         rows: "5"
       }
     ),
@@ -7061,7 +7086,7 @@ const Contact = () => /* @__PURE__ */ jsxRuntimeExports.jsx("section", { id: "co
       "button",
       {
         type: "submit",
-        className: "bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700",
+        className: "bg-blue-600 text-white px-4 py-2 rounded hover:bg-purple-700",
         children: "Send Message"
       }
     )
@@ -7075,7 +7100,7 @@ const App = () => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "fo
     /* @__PURE__ */ jsxRuntimeExports.jsx(Experience, {}),
     /* @__PURE__ */ jsxRuntimeExports.jsx(Contact, {})
   ] }),
-  /* @__PURE__ */ jsxRuntimeExports.jsx("footer", { className: "bg-blue-900 text-white py-4 text-center", children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "© 2024 Sagar Shirwalkar" }) })
+  /* @__PURE__ */ jsxRuntimeExports.jsx("footer", { className: "bg-slate-600 text-white py-4 text-center", children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "© 2024 Sagar Shirwalkar" }) })
 ] });
 client.createRoot(document.getElementById("root")).render(/* @__PURE__ */ jsxRuntimeExports.jsx(App, {}));
-//# sourceMappingURL=index-BDIKIzuP.js.map
+//# sourceMappingURL=index-N2dQkJsI.js.map
