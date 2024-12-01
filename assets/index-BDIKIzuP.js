@@ -7000,7 +7000,7 @@ var m = reactDomExports;
   client.hydrateRoot = m.hydrateRoot;
 }
 const Header = () => /* @__PURE__ */ jsxRuntimeExports.jsx("header", { className: "bg-blue-900 text-white py-4", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto flex justify-between items-center", children: [
-  /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-3xl font-bold", children: "Jane Doe" }),
+  /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-3xl font-bold", children: "Sagar Shirwalkar" }),
   /* @__PURE__ */ jsxRuntimeExports.jsxs("nav", { children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#about", className: "text-white px-4 hover:underline", children: "About" }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#skills", className: "text-white px-4 hover:underline", children: "Skills" }),
@@ -7010,7 +7010,7 @@ const Header = () => /* @__PURE__ */ jsxRuntimeExports.jsx("header", { className
 ] }) });
 const About = () => /* @__PURE__ */ jsxRuntimeExports.jsx("section", { id: "about", className: "py-8 bg-gray-100", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto", children: [
   /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-2xl font-semibold mb-4", children: "About Me" }),
-  /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-700", children: "Hello! I'm Sagar Shirwalkar, a passionate software developer specializing in web development." })
+  /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-700", children: "I'm experienced in leading software teams, project management and client liaison, as well as end-to-end deployment on the AWS cloud. Several years of former experience in Data Engineering and Machine Learning." })
 ] }) });
 const Experience = () => /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { id: "about", children: [
   /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { children: "About Me" }),
@@ -7071,11 +7071,11 @@ const App = () => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "fo
   /* @__PURE__ */ jsxRuntimeExports.jsx(Header, {}),
   /* @__PURE__ */ jsxRuntimeExports.jsxs("main", { children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx(About, {}),
-    /* @__PURE__ */ jsxRuntimeExports.jsx(Experience, {}),
     /* @__PURE__ */ jsxRuntimeExports.jsx(Skills, {}),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(Experience, {}),
     /* @__PURE__ */ jsxRuntimeExports.jsx(Contact, {})
   ] }),
   /* @__PURE__ */ jsxRuntimeExports.jsx("footer", { className: "bg-blue-900 text-white py-4 text-center", children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "© 2024 Sagar Shirwalkar" }) })
 ] });
 client.createRoot(document.getElementById("root")).render(/* @__PURE__ */ jsxRuntimeExports.jsx(App, {}));
-//# sourceMappingURL=index-BTcmPeCX.js.map
+//# sourceMappingURL=index-BDIKIzuP.js.map
