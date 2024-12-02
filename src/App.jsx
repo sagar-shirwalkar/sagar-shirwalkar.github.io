@@ -14,7 +14,7 @@ const App = () => (
       <Experience />
       <Contact />
     </main>
-    <footer className="bg-blue-900 text-white py-4 text-center">
+    <footer className="bg-slate-600 text-white py-4 text-center">
       <p>© 2024 Sagar Shirwalkar</p>
     </footer>
   </div>

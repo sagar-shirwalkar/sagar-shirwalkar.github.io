@@ -1,5 +1,5 @@
 const Header = () => (
-    <header className="bg-blue-900 text-white py-4">
+    <header className="bg-black text-white py-4">
       <div className="container mx-auto flex justify-between items-center">
         <h1 className="text-3xl font-bold">Sagar Shirwalkar</h1>
         <nav>
